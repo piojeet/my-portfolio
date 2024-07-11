@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sundown Studio</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="fixed-box"></div>
+    <div class="mob-navList">
+        <ul>
+            <li><a href="./works/index.html">Work</a></li>
+            <li><a href="#">Studio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <main id="main">
+        <div class="main-container">
+            <!-- *********NAV START********* -->
+            <header>
+                <nav>
+                    <div class="logo"><a href="index.html"><img src="../images/Sundown logo.svg" alt=""></a></div>
+
+                    <ul>
+                        <li><a href="./works/index.html"><span>Work</span></a></li>
+                        <li><a href="#"><span>Studio</span></a></li>
+                        <li><a href="#"><span>Contact</span></a></li>
+                    </ul>
+
+                    <div class="nav-manu">
+                        <div id="menu">
+                            <span class="line-1"></span>
+                            <span class="line-3"></span>
+                        </div>
+                        Menu
+                    </div>
+                </nav>
+            </header>
+            <!-- *************NAV END************* -->
+
+            
+<!-- **************** CONTACT START **************** -->
+<section class="contact">
+    <div class="left-contact">
+        <div><img src="../images/64d3dd9edfb41666c35b15e3_Sundown-Map-p-1080.webp" alt="EROR"></div>
+    </div>
+
+    <div class="right-content">
+        <div class="top-head">
+            <h2><span>let's work </span></h2>
+            <h2><span>together</span></h2>
+            <a href="mailto:manjhipiojeet@gmail.com">contact@sundown-studio.com
+            </a>
+        </div>
+
+        <div class="bottom-head">
+            <h3><span>Roots in Greenpoint, Brooklyn</span></h3>
+            <h3><span>Physical work across the US</span></h3>
+            <h3><span>Digital work across the world</span></h3>
+        </div>
+    </div>
+</section>
+<!-- **************** CONTACT END **************** -->
+
+            
+        </div>
+
+
+
+    </main>
+    <!-- ************PAGE 8 START************* -->
+    <section id="page8"></section>
+    <!-- ************PAGE 8 END************* -->
+
+    <footer>
+        <div class="container">
+            <div class="top">
+                <ul>
+                    <li><a href="./works/index.html">Work</a></li>
+                    <li><a href="#">Studio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <form action="#" method="post">
+                    <p>Get industry insights and creative inspiration straight to your inbox.</p>
+                    <div>
+                        <input type="email" name="email" id="email" placeholder="Email Address">
+                        <button type="submit"><img src="./images/arrow.svg" alt=""></button>
+                    </div>
+                </form>
+            </div>
+            <h2>Sundown</h2>
+            <div class="bottom-footer">
+                <ul>
+                    <li>Copyright © Sundown Studio</li>
+                    <li><img src="./images/glob.svg" alt=""> Brooklyn, NY</li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- *****************SCRIPT START******************* -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+        integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+        integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../main.js"></script>
+    <!-- *****************SCRIPT END******************* -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1.3, // Set the initial number of slides to be displayed
+            spaceBetween: 30,
+            freeMode: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            touchRatio: 2,
+            grabCursor: true,
+            allowTouchMove: true,
+
+            breakpoints: {
+                1024: {
+                    slidesPerView: 3.5,
+                },
+                767: {
+                    slidesPerView: 2,
+                },
+                370: {
+                    slidesPerView: 1,
+                },
+
+            }
+        });
+
+    </script>
+
+<script>
+    const openMenu = document.querySelector(".nav-manu");
+    const navList = document.querySelector(".mob-navList");
+    const navLogo = document.querySelector("nav .logo");
+
+    openMenu.addEventListener("click", function () {
+        navList.classList.toggle("openmenu");
+        openMenu.classList.toggle("openmenu");
+        navLogo.classList.toggle("openmenu");
+        // alert()
+        // Toggle body scroll lock class on the body
+        document.body.classList.toggle("noscroll", openMenu.classList.contains("openmenu"));
+    });
+</script>
+
+    <script src="../studio/gsap.js">
+
+    </script>
+
+</body>
+
+</html>

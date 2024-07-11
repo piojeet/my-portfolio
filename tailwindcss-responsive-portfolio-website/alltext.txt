@@ -1,0 +1,147 @@
+~~~~~~~~~~~~~~~ Title  ~~~~~~~~~~~~~~~
+Portfolio || TailwindCSS Website
+
+~~~~~~~~~~~~~~~ Navbar ~~~~~~~~~~~~~~~
+Services | Works | Resume | Skills | Blogs | Contact | Hire Me!
+
+~~~~~~~~~~~~~~~ Hero Section ~~~~~~~~~~~~~~~
+hi
+I am William
+Web Developer +
+UX Designer
+
+I dissect intricate user experience issues to craft solutions focused on integrity, linking billions of individuals.
+
+Download CV
+Years of <br> Experience
+Project <br> Completed
+Happy <br> Clients
+Years of <br> Experience
+
+~~~~~~~~~~~~~~~ My Quality Services ~~~~~~~~~~~~~~~
+My Quality Services
+We transform your ideas and desires into a distinctive web project that inspires both you and your customers.
+
+Branding Design
+I dissect complex user experience challenges to devise solutions that prioritize integrity.
+
+Web Design
+I dissect complex user experience challenges to devise solutions that prioritize integrity.
+
+UI/UX Design
+I dissect complex user experience challenges to devise solutions that prioritize integrity.
+
+Graphics Design
+I dissect complex user experience challenges to devise solutions that prioritize integrity.
+
+~~~~~~~~~~~~~~~ My Recent Works ~~~~~~~~~~~~~~~
+My Recent Works
+We transform your ideas and desires into a distinctive web project that inspires both you and your customers.
+
+All
+UX/UI
+Branding
+Apps
+
+Design
+I analyze intricate user experience
+
+~~~~~~~~~~~~~~~ Experience & Education ~~~~~~~~~~~~~~~
+Experience
+2022-Present
+Lead Developer
+Blockdots, London
+
+2021-2022
+full stack web developer
+Parsons, The new school
+
+2020-2021
+ui designer
+house of life, Leeds
+
+2022-Present
+junior graphics designer
+Theme Junction, Bursa
+
+Education
+2020-2023
+programming course
+Harverd University
+
+2022-Present
+graphic design course
+University of Denmark
+
+2016-2020
+Graphic Design Course
+University of California
+
+2010-2011
+Design & Technology
+Parsons, The New School
+
+~~~~~~~~~~~~~~~ My Skills ~~~~~~~~~~~~~~~
+My Skills
+We transform your ideas and desires into a distinctive web project that inspires both you and your customers.
+
+Figma
+Sketch
+XD
+WordPess
+React
+JavaScript
+
+~~~~~~~~~~~~~~~ Recent Blogs ~~~~~~~~~~~~~~~
+Recent Blogs
+We transform your ideas and desires into a distinctive web project that inspires both you and your customers.
+
+tutorial
+Oct 01, 2022
+<i class="fa-regular fa-calendar-days"></i>
+Comment (0)
+<i class="fa-regular fa-comments"></i>
+top 10 ui ux designers
+
+tips
+App Development Guides
+
+freebies
+Learn Graphic Design Free
+
+~~~~~~~~~~~~~~~ Contact ~~~~~~~~~~~~~~~
+<i class="fa-solid fa-phone"></i>
+Phone
++01 123 456 8096
+
+<i class="fa-regular fa-envelope"></i>
+Email
+lightcode@mail.com
+
+<i class="fa-solid fa-location-dot"></i>
+Address
+Warne Park Street Pine,<br /> FL 33157, New York
+
+Let’s work together!
+I create elegantly simple designs and code with passion. It's as straightforward as that!
+
+Choose a service
+Branding Design
+Web Design
+UI/UX Design
+App Design
+
+send message
+
+~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~
+Services
+Works
+Resume
+Skills
+Testimonials
+Contact
+
+2024 All rights reserved by
+LightCode.
+
+<i class="fa-solid fa-arrow-up"></i>

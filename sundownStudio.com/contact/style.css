@@ -1,0 +1,136 @@
+
+@font-face {
+    font-family: roman;
+    src: url(fonts/64d3dd9edfb41666c35b15c0_NeueHaasDisplay-Roman.woff);
+}
+
+@font-face {
+    font-family: roman2;
+    src: url(fonts/64d3dd9edfb41666c35b15bf_NeueHaasDisplay-Mediu.woff);
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7em 5vw;
+    overflow: hidden;
+}
+
+.left-contact img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.left-contact div {
+    width: 33vw;
+    /* padding-top: 100%; */
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.right-content h2 {
+    font-size: 8vw;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: roman2;
+    text-align: end;
+    padding-left: 3vw;
+    overflow: hidden;
+}
+
+.right-content h2 span {
+    display: inline-block;
+}
+
+.right-content .top-head {
+    text-align: end;
+}
+
+.right-content .top-head a {
+    font-size: 1.75em;
+    color: #0b0500;
+    font-family: roman2;
+    display: inline-block;
+    margin: 1rem 0;
+    text-decoration: none;
+    position: relative;
+}
+
+.right-content .top-head a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #0b0500;
+    bottom: 0;
+    right: 0;
+    transition: .2s linear;
+}
+
+.right-content .top-head a:hover::after {
+    width: 100%;
+    left: 0;
+    right: unset;
+}
+
+.right-content .bottom-head {
+    padding-top: 3rem;
+    font-size: 1.55em;
+    font-family: roman2;
+    max-width: 17em;
+    /* background-color: red; */
+}
+
+.right-content .bottom-head h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #acacac;
+    overflow: hidden;
+}
+
+.right-content .bottom-head h3:last-child {
+    border-bottom: 1px solid #44444400;
+}
+
+.right-content .bottom-head h3 span {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 991px) {
+    .right-content .bottom-head {
+        font-size: 1.5em;
+    }
+
+    .right-content .top-head a {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .contact {
+        flex-direction: column-reverse;
+        align-items: unset;
+        row-gap: 3rem;
+    }
+
+    .left-contact div {
+        width: 100%;
+    }
+
+    .right-content h2 {
+        font-size: 12vw;
+    }
+
+    .right-content .bottom-head {
+        font-size: 1.1em;
+    }
+
+    .right-content .top-head a {
+        font-size: 1.1em;
+    }
+
+    .contact {
+        padding: 6em 5vw;
+    }
+}

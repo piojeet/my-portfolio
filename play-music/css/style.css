@@ -1,0 +1,296 @@
+@font-face {
+    font-family: GT Super Display Bold;
+    src: url(../GT-Super/GT-Super-Display-Bold-Trial.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container___main {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    column-gap: .5rem;
+    row-gap: 3rem;
+    flex-wrap: wrap;
+    /* background: #e56b6f; */
+    /* height: 100vh; */
+    padding: 4em 0;
+}
+
+.container___main .box {
+    padding: 1.5rem 3rem;
+    max-width: 340px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    background: #3a3b5d;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.7);
+    /* margin-top: 8rem; */
+}
+
+.main___heading__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading__art {
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #fff;
+    font-family: GT Super Display Bold;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+.box .para {
+    font-size: 0.9rem;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.before-after-btn {
+    height: 4.5rem;
+    /* background-color: rgb(60, 255, 0); */
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    padding: 0rem 0.35rem;
+    border-radius: 10px;
+    /* border: 2px solid #38EA93; */
+    margin-top: 1.4rem;
+}
+
+.before-after-btn label {
+    font-size: 1rem;
+    border: none;
+    color: #fff;
+    width: 90%;
+    height: 2.75rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+    background: #27303a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.before-after-btn input {
+    display: none;
+
+}
+
+/* #boxe-1 .before-after-btn input[type="radio"]:checked + .green {
+    background: #38EA93!important;
+    color: #1d1f22;
+}
+
+#boxe-2 .before-after-btn input[type="radio"]:checked + .light-blue {
+    background: #9EAEF0!important;
+    color: #1d1f22;
+}
+
+#boxe-3 .before-after-btn input[type="radio"]:checked + .red {
+    background: #FF6666!important;
+    color: #1d1f22;
+} */
+
+
+
+
+
+/* ------------- progreeBar ------------ */
+.container___main .progress-bar {
+    margin-top: 1.4rem;
+    padding: 0.3rem 1rem 0.5rem 1rem;
+    border-radius: 50px;
+    /* border: 2px solid #38EA93; */
+}
+
+.container___main .progress-bar .progree-player {
+    position: relative;
+    display: inline-flex;
+    /* background: #38EA937d; */
+    height: 0.5rem;
+    width: 100%;
+    border-radius: 12px;
+    cursor: pointer;
+}
+/* 
+#boxe-2 .progress-bar .progree-player {
+    background: #9EAEF07d;
+}
+
+#boxe-3 .progress-bar .progree-player {
+    background: #FF66667d;
+} */
+
+
+.container___main .progress-bar .progree-player .progree-player__thumb {
+    position: absolute;
+    border-radius: 50px;
+    width: 0.9rem;
+    height: 0.9rem;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    /* background: #38EA93; */
+    z-index: 999;
+    /* transform-origin: left; */
+    outline: 2px solid #999999;
+}
+
+.container___main .progree-player__count {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* background: #38EA93; */
+    height: 100%;
+    width: 0;
+    border-radius: 12px;
+    /* transform-origin: left; */
+}
+/* 
+#boxe-2 .progree-player__count {
+    background: #9EAEF0 !important;
+}
+
+#boxe-3 .progree-player__count {
+    background: #FF6666 !important;
+}
+
+#boxe-2 .progress-bar .progree-player .progree-player__thumb {
+    background: #9EAEF0 !important;
+}
+
+#boxe-3 .progress-bar .progree-player .progree-player__thumb {
+    background: #FF6666 !important;
+}
+
+#boxe-3 .red {
+    border-color: #FF6666 !important;
+}
+
+#boxe-2 .light-blue {
+    border-color: #9EAEF0 !important;
+} */
+
+
+
+/* ------------- playBtn ------------ */
+.container___main .music-play-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.container___main .music-play-btn button {
+    background: transparent;
+    border: 0rem;
+    font-size: 0.9rem;
+    /* padding: 0.3rem; */
+    cursor: pointer;
+    background: #fff;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+
+.container___main .music-play-btn button svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: #3a3b5d;
+    /* stroke: #38EA93; */
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+/* .container___main .music-play-btn button svg polygon {
+    fill: #3a3b5d;
+    width: 1rem;
+    height: 1rem;
+} */
+
+/* #boxe-2 .music-play-btn button svg {
+    stroke: #9EAEF0 !important;
+}
+
+#boxe-3 .music-play-btn button svg {
+    stroke: #FF6666 !important;
+} */
+
+.container___main .music-play-btn {
+    position: relative;
+}
+
+.container___main .music-play-btn .music-off {
+    /* width: 2.6rem; */
+    /* height: 2.6rem; */
+    /* border: 2px solid #38EA93; */
+    position: relative;
+    /* border-radius: 50%; */
+    display: none;
+    /* top: 8px; */
+}
+
+.container___main .music-play-btn .music-off::after {
+    content: '';
+    width: 4px;
+    height: 1rem;
+    border-radius: 1px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(0%, -50%);
+    background: #3a3b5d;
+}
+
+.container___main .music-play-btn .music-off::before {
+    content: '';
+    width: 4px;
+    height: 1rem;
+    border-radius: 1px;
+    position: absolute;
+    top: 50%;
+    right: 35%;
+    transform: translate(0%, -50%);
+    background: #3a3b5d;
+}
+
+.container___main .music-play-btn .play-pause-btn {
+    height: 4rem;
+}
+
+/* 
+#boxe-2 .music-play-btn .music-off {
+    border-color: #9EAEF0 !important;
+}
+
+#boxe-2 .music-play-btn .music-off::after {
+    border-color: #9EAEF0 !important;
+}
+
+#boxe-3 .music-play-btn .music-off {
+    border-color: #FF6666 !important;
+}
+
+#boxe-3 .music-play-btn .music-off::after {
+    border-color: #FF6666 !important;
+} */
