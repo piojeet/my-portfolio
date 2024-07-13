@@ -730,6 +730,7 @@ p.skillss {
     text-decoration: none;
     font-weight: bolder;
     color: var(--primaryColor);
+    cursor: no-drop;
 }
 
 .see-more a:hover {
