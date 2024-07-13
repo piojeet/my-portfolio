@@ -731,6 +731,7 @@ p.skillss {
     font-weight: bolder;
     color: var(--primaryColor);
     cursor: no-drop;
+    user-select: none;
 }
 
 .see-more a:hover {
